@@ -63,13 +63,21 @@
 		6C02951E1BDE1BD2001F7C53 /* ChineseToPinyin */ = {
 			isa = PBXGroup;
 			children = (
+				6C82E2041BDF70AB00EDE6D7 /* libs */,
 				6C02951F1BDE1BD2001F7C53 /* main.m */,
+			);
+			path = ChineseToPinyin;
+			sourceTree = "<group>";
+		};
+		6C82E2041BDF70AB00EDE6D7 /* libs */ = {
+			isa = PBXGroup;
+			children = (
 				6C0295261BDE1F80001F7C53 /* iOSChineseToPinyin.h */,
 				6C0295271BDE1F80001F7C53 /* iOSChineseToPinyin.m */,
 				6C82E1D11BDF3C7B00EDE6D7 /* NSString+Pinyin.h */,
 				6C82E1D21BDF3C7B00EDE6D7 /* NSString+Pinyin.m */,
 			);
-			path = ChineseToPinyin;
+			name = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
