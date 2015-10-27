@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6C0295201BDE1BD2001F7C53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C02951F1BDE1BD2001F7C53 /* main.m */; };
 		6C0295281BDE1F80001F7C53 /* iOSChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295271BDE1F80001F7C53 /* iOSChineseToPinyin.m */; };
+		6C82E1D31BDF3C7B00EDE6D7 /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C82E1D21BDF3C7B00EDE6D7 /* NSString+Pinyin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		6C02951F1BDE1BD2001F7C53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C0295261BDE1F80001F7C53 /* iOSChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSChineseToPinyin.h; sourceTree = "<group>"; };
 		6C0295271BDE1F80001F7C53 /* iOSChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSChineseToPinyin.m; sourceTree = "<group>"; };
+		6C82E1D11BDF3C7B00EDE6D7 /* NSString+Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
+		6C82E1D21BDF3C7B00EDE6D7 /* NSString+Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				6C02951F1BDE1BD2001F7C53 /* main.m */,
 				6C0295261BDE1F80001F7C53 /* iOSChineseToPinyin.h */,
 				6C0295271BDE1F80001F7C53 /* iOSChineseToPinyin.m */,
+				6C82E1D11BDF3C7B00EDE6D7 /* NSString+Pinyin.h */,
+				6C82E1D21BDF3C7B00EDE6D7 /* NSString+Pinyin.m */,
 			);
 			path = ChineseToPinyin;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C82E1D31BDF3C7B00EDE6D7 /* NSString+Pinyin.m in Sources */,
 				6C0295201BDE1BD2001F7C53 /* main.m in Sources */,
 				6C0295281BDE1F80001F7C53 /* iOSChineseToPinyin.m in Sources */,
 			);
@@ -243,6 +249,7 @@
 				6C0295251BDE1BD2001F7C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

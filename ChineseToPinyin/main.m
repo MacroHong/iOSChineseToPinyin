@@ -8,12 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "iOSChineseToPinyin.h"
+#import "NSString+Pinyin.h"
 
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSLog(@"%@",[iOSChineseToPinyin getPinyin:@"好好学习,天天向上"]);
+        NSString *chinese = @"好好学习,天天向上";
+        NSString *pinyin = [iOSChineseToPinyin getPinyin:chinese];
+        NSLog(@"Method: %@",pinyin);
+        
+        NSLog(@"Category: %@", [chinese getPinyin]);
         
         
     }
