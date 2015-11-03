@@ -14,7 +14,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSString *chinese = @"好好学习,天天向上";
+        NSString *chinese = @"好好学习,天天向上!";
         NSString *pinyin = [iOSChineseToPinyin getPinyin:chinese];
         NSLog(@"Method: %@",pinyin);
         
